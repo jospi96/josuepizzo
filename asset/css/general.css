@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  font-size: 25px;
+  font-family: "Lato","Montserrat", "sans-serif";
+  color: #5D6063;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h1{
+/*  margin-top: 10px;*/
+  text-align:center;
+  font-size: 80px;
+  color: #292d35;
+}
+#h1nome{
+  margin-top: 20px;
+}
+
+h2 {
+ margin-top: 20px;
+ text-align:center;
+ font-size: 60px;
+ color: #292d35;
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 960px) {
+  h1{
+    
+   font-size: 80%;
+  }
+  h2{
+    font-size: 80%;
+
+  }
+  
+}
+
+
+
+

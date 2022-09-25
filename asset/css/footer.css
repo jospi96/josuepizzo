@@ -1,0 +1,20 @@
+.footer {
+
+  display: flex;
+  flex-direction: row;
+  font-family: "Lato", "Montserrat", "sans-serif";
+  font-size: 15px;
+  justify-content: space-between;
+  background-color: #292d35;
+  padding: 20px 20px 20px 20px;
+  margin-top: 0;
+  text-align: center;
+  color: #fff;
+
+}
+
+.footer img {
+  width: 60px;
+  height: 60px;
+  
+}

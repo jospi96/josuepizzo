@@ -1,0 +1,64 @@
+.graybar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #d2d2d2;
+  padding-bottom: 50px;
+}
+
+.graybar img {
+  margin-top: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.graybar img:hover {
+
+  transform: scale(1.5);
+}
+
+#social {
+
+  width: 75px;
+  height: 75px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+img#social:hover {
+  transform: scale(1.5);
+
+}
+
+.graybar p {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 30px;
+  font-style: italic;
+  align-items: center;
+
+
+}
+
+.graybar p:hover {
+  transform: scale(1.2);
+}
+/*mobile*/
+@media only screen and (max-width: 960px) {
+
+.graybar img {
+  margin-top: 30px;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+#social {
+
+  max-width: 70%;
+  max-height: 70%;
+}
+}

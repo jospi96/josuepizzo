@@ -1,0 +1,65 @@
+/*mobile*/
+@media only screen and (max-width: 960px) {
+
+    .menu{
+  
+      width:50%;
+      display: fixed;
+      justify-content: center;
+      background:#292d35 ;
+      position: relative;
+      margin-left: 20px;
+    }
+   .details{
+      
+      width: 50%;
+   }
+  
+   summary{
+    display: list-item;
+    display: block;
+    text-align: left;
+    padding: 20px;
+   }
+   summary p{
+    width: 60px;
+    text-align: center;
+    
+   } 
+   summary p:hover{
+    transform: scale(1.2);
+   }
+   
+  
+  
+  .menu li {
+    display: grid;
+    width: 100%;
+    background: #292d35;
+    /*border: 1px solid white;*/
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin: 2px;
+    
+  
+  }
+  .presentation {
+    flex-wrap: wrap;
+  }
+.presentation figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+  }
+  #img-profile{
+    max-width:70%;
+     max-height:70%;
+     
+   
+   }
+
+  }

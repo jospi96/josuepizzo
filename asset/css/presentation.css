@@ -1,0 +1,51 @@
+.presentation {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 10%;
+  padding-top: 25px;
+  width: 80%;
+
+}
+
+#img-profile {
+  border: 0 solid white;
+  max-width: 400px;
+  max-height: 338px;
+
+}
+
+.presentation p {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: black;
+  width: 100%;
+
+}
+
+@media only screen and (max-width: 960px) {
+
+
+  .presentation {
+    flex-wrap: wrap;
+  }
+
+  .presentation figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+  }
+
+  #img-profile {
+    max-width: 70%;
+    max-height: 70%;
+
+
+  }
+
+}
