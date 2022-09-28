@@ -23,4 +23,6 @@ function menu() {
     } else if (width > 960) {
         details.open = true;
     }
+
+ 
 }
